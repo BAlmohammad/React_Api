@@ -1,0 +1,122 @@
+div.parentup{
+width: 100vw  ;
+height:100vh ;
+background-image: url("src/assets/image/shape.png");
+background-color: #4880FF;
+   
+   
+
+.signup{
+
+  
+    background-color: #cce6ff;
+    width:40% ;
+    height:100%;
+    margin: auto;
+    padding:10px 32px;
+    border-radius: 16px;
+    .headsign{
+        margin: 0;
+        width:fit-content ;
+        text-align: center;
+       padding: 5px;
+        
+    }
+    .signbody{
+       
+        height: max-content ;
+        display: flex;
+        flex-direction: column;
+       input{
+        width:75%;
+        height:35px ;
+        margin: 5px 2px ;
+        
+      }
+      p{
+        font-size: 0.8rem;
+        width: fit-content;
+        margin: 0px 4px ;
+       
+      }
+      .line1{
+        display: flex;
+        width :100%;
+        gap:8px !important;
+        
+        
+      }
+      div input{
+        width:100% ;
+    }
+      
+      .sub{
+        
+        width:98% ;
+        text-align: center;
+        background: #4880FF;
+        border-radius: 8px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+
+    }
+    .subsign{
+      
+        text-align: center;
+        width:90% ;
+        padding:15px ;
+        transition: 1s;
+        span.in:hover{
+          color:#4880FF ;
+          cursor: pointer;
+          font-weight: bold;
+         
+        }
+    }
+    }
+
+    
+    
+   
+}
+}
+
+
+@media(max-width:992px) {
+  div.parentup {
+    min-height: max-content;
+    background-color: rgb(82, 212, 162);
+    .signup{
+      width:80% ;
+      height:max-content ;
+     
+      background-color: rgb(198, 243, 226);
+      .headsign{
+       font-size:1.5rem !important ;
+      
+       margin: 60px auto;
+      
+    }
+    .signbody{
+      
+     
+        input{
+        height:20px ;
+        font-size: .6rem ;
+        width: 30% ;
+      }
+   
+      p{
+        font-size: 1rem;
+
+      }
+    
+      
+
+    }
+
+    
+    }
+  }
+}

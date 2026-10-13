@@ -1,0 +1,68 @@
+div.dash{
+text-align: center;
+background-color: #F5F6FA ;
+
+padding:20% 0% ;
+
+
+  ul{
+   
+
+display: flex;
+flex-direction: column;
+
+
+
+:nth-child(3){
+   
+margin-top: 90% ;
+
+}
+
+
+
+    li{
+
+        cursor: pointer;
+        margin-top: 50px;
+        display: flex ;
+        align-items: center;
+        justify-content: space-between;
+        padding:10px 20px ;
+        border-radius:6px ;
+      
+        p{
+            font-size: 0.7rem;
+             
+            
+        }
+
+        
+    }
+   li:hover{
+        background-color: #4880FF;
+        
+    }
+   
+  }
+}
+
+
+ .active{
+    background-color: #4880FF;
+}
+@media(max-width:992px){
+ 
+  img.dashlogo{
+  
+    width:75px;
+  }
+
+  ul{
+  :nth-child(3){
+   
+    margin-top: 15% !important ;
+    
+    }
+  }
+}

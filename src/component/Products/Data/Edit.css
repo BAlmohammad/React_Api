@@ -1,0 +1,53 @@
+div.editprod{
+    display: flex;
+  align-items: center;
+    justify-content: space-around;
+    
+    
+    div.side1{
+        margin : 100px 20px ;
+        width : 50% ;
+        
+        p , input{
+            width:100% ;
+            font-size: 1rem ;
+            
+        }
+        input{
+            margin-bottom: 50px;
+            padding: 10px;
+            border-radius:8px ;
+        }
+       
+
+    }
+   
+    div.side2{
+
+        img{
+            width:250px ;
+            height :250px ;
+            
+            
+        }
+        form{
+            background-color: white;
+            width:250px ;
+            height: 250px !important;
+           
+            text-align: center;
+            border: dashed 2px rgb(122, 122, 122);
+            
+        }
+    }
+}
+div.divsave{
+    background-color: #4967b9;
+    width : 20% ;
+   border-radius: 8px;
+    padding : 8px 5px ;
+    text-align: center ;
+    cursor: pointer;
+    margin-left: 20px;
+    color: white;
+}
