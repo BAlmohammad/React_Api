@@ -91,7 +91,7 @@ d.classList.add('showdelete')
         <p>{pro.price}</p>
         <img className="imgapi" src={pro.image_url} alt="" />
         <div className="process">
-          <div className="add" onClick={()=>pageEdit(pro.id)}><img src="/image/pencil-write.svg" alt="" /></div>
+          <div className="add" onClick={()=>pageEdit(pro.id)}><img src="image/pencil-write.svg" alt="" /></div>
           <div className="delete" onClick={()=>listdel(pro.id)}><img src="image/bin.svg"alt="" /></div>
         </div>
   
