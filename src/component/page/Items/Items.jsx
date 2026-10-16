@@ -11,7 +11,7 @@ const Items = () => {
 
       <div className='pageproudtcs'>
 
-      <div className='col1'> <Dash img="image/Logo.svg"
+      <div className='col1'> <Dash img="image/logo.svg"
       inps={[{icon:"image/perfor.svg" , content : "Dashboard"},{icon:"image/dash.svg" , content : "Products"},{icon:"image/out.svg" , content : "Logout"}]}
       /> </div>
         <div className='row1'>   
