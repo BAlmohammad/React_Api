@@ -3,8 +3,7 @@
 import { useEffect, useState } from 'react'
 import './Edit.css'
 import axios from 'axios'
-import img from '/image/Upload.png'
-
+import img from '/image/upload.png' ;
 const Edit = ({process,url,title1 , title2 } ) => {
   const [getda , setgetda] = useState(false)
   const [Image , setImage]  = useState(img)  

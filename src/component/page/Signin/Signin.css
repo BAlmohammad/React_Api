@@ -1,7 +1,7 @@
 div.all{
     width:100vw ; 
     height : 100vh ;
-    background-image: url("src/assets/image/shape.png");
+    background-image: url("image/shape.png");
     background-color: #4880FF;
    
     .for{
